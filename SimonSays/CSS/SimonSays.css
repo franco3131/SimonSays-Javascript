@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+body {
+  background: url("http://previews.123rf.com/images/lenanet/lenanet1103/lenanet110300164/9082525-orange-rug-fabric-texture-as-a-background-Stock-Photo.jpg");
+  background-color: #ffffaa;
+}
+
+.block {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.on {
+  border: solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: -999px;
+  right: -200px;
+}
+
+.strict {
+  border: solid;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  position: relative;
+  top: -899px;
+  right: -70px;
+  background-color: #006bb3;
+}
+
+.reset {
+  border: solid;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 100%;
+  position: relative;
+  top: -900px;
+  right: 20px;
+}
+
+.start {
+  color: black;
+  position: relative;
+  top: -1000px;
+  right: -200px;
+  z-index: 2;
+  font-size: 18px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#onLight {
+  border: solid;
+  width: 15px;
+  background-color: black;
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  top: -1030px;
+  right: -200px;
+}
+
+.simonBackground {
+  top: -722px;
+  background-color: #222;
+  width: 520px;
+  height: 510px;
+  position: relative;
+  right: 112px;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px black;
+}
+
+span {
+  position: relative;
+  right: -70px;
+  top: -1160px;
+  font-size: 40px;
+  font-family: 'Alfa Slab One';
+  color: black;
+}
+
+.simonSquare {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 14px;
+  position: absolute;
+  right: 48vw;
+  top: 290px;
+  background-color: #FFFFf1;
+}
+
+#BlueButton {
+  background-color: #3385ff;
+  width: 300px;
+  height: 110px;
+  position: relative;
+  right: 10px;
+  top: -150px;
+}
+
+#RedButton {
+  background-color: red;
+  width: 110px;
+  height: 286px;
+  position: relative;
+  right: -290px;
+  top: -178px;
+}
+
+#GreenButton {
+  background-color: #2eb82e;
+  width: 110px;
+  height: 288px;
+  position: relative;
+  right: 255px;
+  top: -176px;
+}
+
+.count {
+  color: red;
+  position: relative;
+  right: -40px;
+  border-radius: 4px;
+  top: 150px;
+  width: 60px;
+  ;
+  height: 30px;
+  background-color: black;
+  font-size: 25px;
+  border-width: 5px;
+  border: solid;
+  border-color: #222;
+}
+
+#strict {
+  position: relative;
+  right: 18px;
+  top: 14px;
+  font-size: 20px;
+  font-family: 'Alfa Slab One';
+  color: black;
+}
+
+#reset {
+  position: relative;
+  right: 25px;
+  top: 15px;
+  font-size: 20px;
+  font-family: 'Alfa Slab One';
+  color: black;
+}
+
+#PurpleButton {
+  background-color: #d633ff;
+  width: 300px;
+  height: 110px;
+  position: relative;
+  right: 10px;
+  top: -200px;
+}
